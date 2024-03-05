@@ -41,13 +41,42 @@ Scaffolding project in /Users/chyiyaqing/chyi/github.com/react101/react-app...
 Done. Now run:
 
   cd react-app
-  npm install
-  npm run dev
+  npm install   # install the packages required by the application
+  npm run dev   # start your application
+```
 
-  npm notice
-  npm notice New major version of npm available! 9.8.1 -> 10.5.0
-  npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.5.0
-  npm notice Run npm install -g npm@10.5.0 to update!
-  npm notice
+`npm install`
+> install the packages required by the application
+
+`npm run dev`
+> start your application
 
 ```
+VITE v5.1.5  ready in 94 ms
+
+➜  Local:   http://localhost:5173/
+➜  Network: use --host to expose
+➜  press h + enter to show help
+```
+
+`npm run dev -- --host`
+> If you want to start the development server and bind it to expose
+
+```
+*[main][~/chyi/github.com/react101/react-app]$ npm run dev -- --host
+
+react-app@0.0.0 dev
+vite --host
+
+
+VITE v5.1.5  ready in 86 ms
+
+➜  Local:   http://localhost:5173/
+➜  Network: http://10.2.67.249:5173/
+➜  Network: http://192.168.100.13:5173/
+➜  Network: http://169.254.8.94:5173/
+➜  press h + enter to show help
+```
+
+Now you can view the running application from the browser.
+![react run dev](/imgs/react-run-dev.png)
