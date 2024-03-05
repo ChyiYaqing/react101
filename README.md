@@ -7,7 +7,7 @@ You'll learn about JSX, components, props, states, event handlers, creating form
 ## Table of Contents
 
 ### Chapter 1: [Introduction](ch1/README.md)
-### Chapter 2: How to Create React Components
+### Chapter 2: [How to Create React Components](ch2/README.md)
 ### Chapter 3: Making Sense of JSX
 ### Chapter 4: Props and State
 ### Chapter 5: React Conditional Rendering
