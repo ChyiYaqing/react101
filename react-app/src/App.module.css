@@ -1,0 +1,15 @@
+.MediumParagraph {
+  font-size: 20px;
+}
+
+.BlueParagraph {
+  composes: MediumParagraph;
+  color: blue;
+  text-align: left;
+}
+
+.GreenParagraph {
+  composes: MediumParagraph;
+  color: green;
+  text-align: right;
+}
