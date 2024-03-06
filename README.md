@@ -14,7 +14,7 @@ You'll learn about JSX, components, props, states, event handlers, creating form
 ### Chapter 6: [How to Handle User Events](ch6/README.md)
 ### Chapter 7: [CSS in React](ch7/README.md)
 ### Chapter 8: [How to Build Forms in React](ch8/README.md)
-### Chapter 9: Network Requests in React
+### Chapter 9: [Network Requests in React](ch9/README.md)
 ### Wrapping Up
 
 ## Requirements
