@@ -11,7 +11,7 @@ You'll learn about JSX, components, props, states, event handlers, creating form
 ### Chapter 3: [Making Sense of JSX](ch3/README.md)
 ### Chapter 4: [Props and State](ch4/README.md)
 ### Chapter 5: [React Conditional Rendering](ch5/README.md)
-### Chapter 6: How to Handle User Events
+### Chapter 6: [How to Handle User Events](ch6/README.md)
 ### Chapter 7: CSS in React
 ### Chapter 8: How to Build Forms in React
 ### Chapter 9: Network Requests in React

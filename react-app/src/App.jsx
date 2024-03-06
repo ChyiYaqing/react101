@@ -1,13 +1,24 @@
-import { userState } from 'react'
-function App(props) {
-    const { user } = props
+import { useState } from 'react'
+function App() {
+    // State to hold the visibility status of the paragraph
+    const [isParagraphVisible, setIsParagraphVisible] = useState(true);
+
+    // Function to goggle the visibility status of the paragraph
+    const toggleStatus = () => {
+        setIsParagraphVisible(!isParagraphVisible);
+    };
 
     return (
-    <>
-        <h1>Hello there!</h1>
-        { user? <button>Logout</button> : <button>Login</button>}
-    </>
-    )
+        <>
+            <h1>Change UI Based on click</h1>
+            {isParagraphVisible && (
+                <p>This paragraph will be shown/hidden on click</p>
+            )}
+            <button onClick={toggleStatus}>
+                {isParagraphVisible ? 'Hide' : 'Show'} Paragraph
+            </button>
+        </>
+    );
 }
 
 export default App
