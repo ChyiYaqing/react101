@@ -26,3 +26,6 @@ const lowercaseClass = 'text-lowercase';
 const text = 'Hello World!';
 const App = <h1 className={lowercaseClass}>{text}</h1>
 ```
+
+### How to Render a List Using JSX
+
